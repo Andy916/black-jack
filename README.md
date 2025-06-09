@@ -8,7 +8,7 @@ Simulates blackjack in the console using Java.
 
 ## Installation
 
-'''bash
+```bash
 # Clone the repo 
 https://github.com/Andy916/black-jack.git
 
@@ -17,3 +17,4 @@ cd black-jack
 
 # Run the project
 java BlackJack
+```
