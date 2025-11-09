@@ -1,10 +1,9 @@
-# Blackjack
+# Blackjack (In Development)
 
 Simulates blackjack in the console using Java.
 
-## Features
-
--Fill features when done
+## Current Progress:
+- Starting this week
 
 ## Installation
 
