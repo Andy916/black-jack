@@ -17,12 +17,8 @@ Simulates blackjack in the console using Java.
 ## Installation
 
 ```bash
-# Clone the repo 
-https://github.com/Andy916/black-jack.git
-
-# Navigate into the project directory
+git clone https://github.com/Andy916/black-jack.git
 cd black-jack
-
-# Run the project
-java BlackJack
+javac -d bin src/*.java
+java -cp bin BlackjackGame
 ```
