@@ -11,7 +11,7 @@ public class Card {
         this.pointValue = pointValue;
     }
 
-    // getters and setters
+    // methods
     public String getRank() {
         return rank;
     }
@@ -21,16 +21,7 @@ public class Card {
     public int getPointValue() {
         return pointValue;
     }
-    public void setRank(String rank) {
-        this.rank = rank;
+    public String toString() {
+        return rank + " of " + suit + " (" + pointValue + " points)";
     }
-    public void setSuit(String suit) {
-        this.suit = suit;
-    }
-    public void setPointValue(int pointValue) {
-        this.pointValue = pointValue;
-    }
-
-    // other methods
-
 }

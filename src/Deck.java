@@ -19,13 +19,16 @@ public class Deck {
         }
     }
 
-    // getters and setters
+    // methods
     public ArrayList<Card> getCards() {
         return cards;
     }
 
-    // methods
     public void shuffle() {
         Collections.shuffle(cards);
+    }
+
+    public Card draw() {
+        return cards.remove(cards.size() - 1);
     }
 }
