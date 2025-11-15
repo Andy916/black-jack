@@ -15,7 +15,7 @@ Simulates blackjack in the console using Java.
 - Added `getPointTotal()` method in `Hand` to calculate the total value of cards.
 
 ## Next Steps
-- Continue building game loop logic in the `BlackjackGame` class.
+- Continue fleshing out player's turn and make a `dealerTurn` function in BlackjackGame.
 - Implement win/loss condition checks (player bust, dealer bust, blackjack).
 - Improve output formatting for readability (hands + totals).
 
