@@ -13,6 +13,11 @@ public class Hand {
         cards.add(card);
     }
 
+    public void revealHiddenCard(Card card) {
+        cards.remove(1);
+        cards.add(card);
+    }
+
     public int getPointTotal() {
         int total = 0;
         for (Card card : cards) {
@@ -32,6 +37,6 @@ public class Hand {
             sb.append(card.toString()).append("\n");
         }
         return sb.toString() + 
-               "Total Points: " + getPointTotal() + "\n";
+               "Total Points: " + getPointTotal();
     }
 }
