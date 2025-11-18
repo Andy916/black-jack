@@ -17,10 +17,11 @@ Simulates blackjack in the console using Java.
 - Implemented  `determineWinner` method in BlackjackGame.
 - Improved output formatting for readability (hands + totals).
 - Improved code readability by eliminating redundant prints by making a `printGame` function in BlackjackGame.
+- Further improved output formatting
+- Made sure wrong inputs were handled
 
 ## Next Steps
-- Further improve output formatting.
-- Add error handling for user input.
+- Potentially adding a two player mode, unlikely though
 
 ## Installation
 
