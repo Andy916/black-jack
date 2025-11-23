@@ -1,4 +1,4 @@
-# Blackjack (In Development)
+# Blackjack
 
 Simulates blackjack in the console using Java.
 
@@ -19,9 +19,6 @@ Simulates blackjack in the console using Java.
 - Improved code readability by eliminating redundant prints by making a `printGame` function in BlackjackGame.
 - Further improved output formatting
 - Made sure wrong inputs were handled
-
-## Next Steps
-- Potentially adding a two player mode, unlikely though
 
 ## Installation
 
